@@ -39,6 +39,7 @@ function savePost(){
 }
 
 const hasPost = localStorage.getItem('posts')
+
 if (!hasPost) {
     savePost()
 }
